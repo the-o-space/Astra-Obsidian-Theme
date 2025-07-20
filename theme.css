@@ -54,15 +54,43 @@ svg * {
 	ry: 0;
 }
 
+/* Remove all borders */
+.workspace-split.mod-vertical > .workspace-leaf,
+.workspace-split.mod-horizontal > .workspace-leaf,
+.workspace-leaf,
+.workspace-split,
+.workspace-tabs,
+.workspace-tab-container,
+.workspace-tab-header-container,
+.view-header,
+.titlebar,
+.status-bar,
+.side-dock-ribbon,
+.side-dock-settings,
+.nav-files-container,
+.nav-folder,
+.nav-file,
+.workspace-leaf-content {
+	border: none !important;
+	border-width: 0 !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
 /* Menu styling */
 .menu {
 	padding: var(--size-2-1);
+	border: none !important;
 }
 
 .menu-item {
 	padding: var(--size-4-1) var(--size-4-2);
+	border: none !important;
 }
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+	border: none !important;
 }
