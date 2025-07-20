@@ -70,7 +70,13 @@ svg * {
 .nav-files-container,
 .nav-folder,
 .nav-file,
-.workspace-leaf-content {
+.workspace-leaf-content,
+.sidedock-vault-profile,
+.workspace-tab-header.tappable.is-active.mod-active,
+.workspace-tab-header,
+.workspace-leaf-resize-handle,
+.workspace-ribbon.side-dock-ribbon.mod-left,
+.workspace-ribbon {
 	border: none !important;
 	border-width: 0 !important;
 	border-left: none !important;
