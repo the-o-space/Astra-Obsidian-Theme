@@ -1,7 +1,8 @@
 {
-	"name": "Sample Theme",
+	"name": "Astra",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md"
+	"description": "A minimal dark theme with cosmic aesthetics, clean typography and reduced visual noise.",
+	"author": "Theo Ryzhenkov",
+	"authorUrl": "https://github.com/the-o-space"
 }

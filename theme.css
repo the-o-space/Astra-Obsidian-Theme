@@ -1,3 +1,22 @@
+/* Astra - Minimal Cosmic Theme */
+
+.theme-dark {
+	--background-primary: #000000;
+	--background-primary-alt: #0a0a0a;
+	--background-secondary: #1a1a1a;
+	--background-secondary-alt: #252525;
+	--text-normal: #ffffff;
+	--text-muted: #cccccc;
+	--text-faint: #999999;
+	--text-accent: #ff9900;
+	--text-accent-hover: #ffb74d;
+	--interactive-accent: #ff9900;
+	--interactive-accent-hover: #ffb74d;
+	--border-color: #333333;
+	--border-color-alt: #444444;
+}
+
+/* Remove rounded corners for minimal aesthetic */
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -8,12 +27,40 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+/* Clean workspace styling */
+.workspace-leaf-content {
+	padding: 20px;
+}
+
+.workspace-tab-header.is-active::before, 
+.workspace-tab-header.is-active::after {
 	display: none;
 }
 
+/* Navigation styling */
+.nav-folder-title, 
+.nav-file-title {
+	padding: 4px 8px;
+	border-radius: 4px;
+}
+
+.nav-folder-title:hover, 
+.nav-file-title:hover {
+	background-color: var(--background-secondary);
+}
+
+/* Clean headers with accent color */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.cm-header-1,
+.cm-header-2 {
+	color: var(--text-accent);
+}
+
+/* Square icons and elements */
 svg * {
 	stroke-linecap: square;
 	stroke-linejoin: miter;
@@ -21,6 +68,7 @@ svg * {
 	ry: 0;
 }
 
+/* Menu styling */
 .menu {
 	padding: var(--size-2-1);
 }
