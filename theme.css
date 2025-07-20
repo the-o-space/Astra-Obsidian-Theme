@@ -1,33 +1,19 @@
 /* Astra - Minimal Cosmic Theme */
 
 .theme-dark {
-	--background-primary: #000000;
-	--background-primary-alt: #0a0a0a;
-	--background-secondary: #1a1a1a;
-	--background-secondary-alt: #252525;
-	--text-normal: #ffffff;
-	--text-muted: #cccccc;
-	--text-faint: #999999;
-	--text-accent: #ff9900;
-	--text-accent-hover: #ffb74d;
-	--interactive-accent: #ff9900;
-	--interactive-accent-hover: #ffb74d;
+	--background-primary: #ffffff;
+	--background-primary-alt: #ffffff;
+	--background-secondary: #ffffff;
+	--background-secondary-alt: #ffffff;
+	--text-normal: #000000;
+	--text-muted: #000000;
+	--text-faint: #000000;
+	--text-accent: #000000;
+	--text-accent-hover: #000000;
+	--interactive-accent: #000000;
+	--interactive-accent-hover: #000000;
 	--border-color: #333333;
 	--border-color-alt: #444444;
-}
-
-/* Remove rounded corners for minimal aesthetic */
-body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 /* Clean workspace styling */
